@@ -1,0 +1,10 @@
+prefix: "§3§lGamemodeSwitch §r>> "
+messages:
+  enable: "GamemodePlugin aktiviert!"
+  disable: "GamemodePlugin deaktiviert!"
+  survival: "Spielmodus geändert zu Überleben!"
+  creative: "Spielmodus geändert zu Kreativ!"
+  adventure: "Spielmodus geändert zu Abenteuer!"
+  spectator: "Spielmodus geändert zu Zuschauer!"
+  invalidMode: "Ungültiger Spielmodus. Bitte verwenden Sie 0, 1, 2 oder 3."
+  noPermission: "Du hast keine Berechtigung, um diesen Befehl zu verwenden."

@@ -1,0 +1,17 @@
+name: GamemodeSwitch
+main: org.jhonnyby.gamemodeSwitch.GamemodePlugin
+version: 1.0
+description: Ein Plugin zum Wechseln des Spielmodus mit konfigurierbaren Nachrichten und einem /gamemode reload Befehl.
+author: Jhonnyby
+commands:
+  gamemode:
+    description: Wechselt den Spielmodus des Spielers oder lädt das Plugin neu.
+    usage: /<command> <0|1|2|3|survival|creative|adventure|spectator|reload>
+    aliases: [gm, s, c, a, sp, survival, creative, adventure, spectator]
+permissions:
+  gamemodeswitch.change:
+    description: Erlaubt einem Spieler, den Spielmodus zu ändern.
+    default: op
+  gamemodeswitch.admin.reload:
+    description: Erlaubt das Neuladen der Plugin-Konfiguration.
+    default: op
